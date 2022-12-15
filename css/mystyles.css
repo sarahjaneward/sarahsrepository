@@ -1,0 +1,57 @@
+.tab {
+    text-indent:inherit
+}
+.itallic {
+    font-style:italic;
+}
+.noitallic{
+    font-style:normal
+}
+.bold {
+    font-weight:bold;
+}
+.color {
+    color:black;
+}
+.blue {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightskyblue;
+}
+.lavender {
+    color:purple;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.centertext {
+    text-align: center;   
+}
+.fontsizesmall {
+    font-size: 16px;
+}
+.underline {
+    text-decoration: underline;
+}
+.centerobject {
+    object-position: center;
+    object-fit:cover;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.columntwo {
+    flex:auto;
+}
+.background {
+    background-color:lavender;
+}
+.otherheader {
+    display: inline-block
+}
